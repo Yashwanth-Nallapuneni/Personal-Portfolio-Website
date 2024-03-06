@@ -1,0 +1,196 @@
+/* .horizontal-pfp-div{
+     width: 600px; 
+} */
+
+body{
+    background-color: rgb(15, 15, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+    height: 1300px;
+    padding-top: 90px;
+    padding-left: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+
+
+.horizontal-pfp{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.skills-main-div{
+    /* background-color: gray; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.skills-main-div-bottom{
+    display: flex;
+    gap: 90px;
+    width: 1000px;
+}
+
+.skills-heading{
+    font-size: larger;
+    font-style: normal;
+    margin-left: 30px;
+}
+
+.skills-inbox{
+    margin-top:26px;
+    height: 210px;
+    width: 250px;
+    background-color: rgb(33, 33, 33);
+    color: beige;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 13px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.skills-inbox:hover{
+    margin-top: 5px;
+    width: 400px;
+    padding-left: 60px;
+    background-color: rgb(110, 109, 109);
+}
+
+.skills-inbox-button{
+    background-color: black;
+    color: beige;
+    border-style:groove;
+    border-color: lightblue;
+    padding: 6px;
+    margin: 3.6px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.skills-inbox-button:hover{
+    background-color: rgb(51, 48, 48);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projects-title{
+    font-size: larger;
+    font-style: normal;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.projects-div{
+    
+    height: 220px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project{
+    margin-top: 100px;
+    height: 180px;
+    width: 200px;
+    background-color:rgb(51, 48, 48);
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.15s;
+    color: transparent;
+}
+
+.project:active{
+    margin-top : 20px;
+    height: 275px;
+    color: beige;
+}
+
+.project-matter{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.project-matter-1{
+    color: beige;
+}
+
+.project-matter-2{
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.project-image{
+    width: 200px;
+    height: 120px;
+}
+
+
+
+.pp
+{
+    width: 200px;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+
+.education-title{
+    font-size: larger;
+    font-style: normal;
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.education-exp{
+    /* height: 80px; */
+    width: 1000px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.education-vit{
+    color: transparent;
+    height: 60px;
+    background-color: rgb(51, 48, 48);
+    border-radius: 15px;
+    padding: 30px;
+    transition: 0.15s;
+    cursor: pointer;
+}
+
+.education-vit:hover{
+    height: 120px;
+    color: beige;
+}
+.education-vit-name{
+    color: beige;
+    font-weight: bold;
+    
+}
+.education-vit-name{
+    color: beige;
+}
+
+.education-harvest{
+    background-color: aqua;
+}

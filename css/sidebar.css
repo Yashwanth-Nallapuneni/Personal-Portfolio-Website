@@ -1,0 +1,79 @@
+.side-bar{
+    background-color: rgb(54, 54, 54);
+    color: beige;
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    bottom: 0px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.side-bar-elements{
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+
+.side-bar-elements:hover{
+    margin-top:2px;
+    margin-left: 60px;
+    color: rgb(143, 93, 32);
+    
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.side-img-main-text{
+    margin-left: 81px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.side-img{
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.side-bar-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-img-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.side-bar-contacts{
+    position: absolute;
+    left: 0px;
+    bottom: 90px;
+    
+}
+
+.side-bar-contacts-matter{
+    font-family:Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 18px;
+    color: rgb(231, 190, 231);
+}
+
