@@ -1,6 +1,4 @@
-/* .horizontal-pfp-div{
-     width: 600px; 
-} */
+
 
 body{
     background-color: rgb(15, 15, 15);
@@ -27,10 +25,11 @@ p{
 }
 
 .skills-main-div{
-    /* background-color: gray; */
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -38,8 +37,9 @@ p{
 
 .skills-main-div-bottom{
     display: flex;
+    flex-wrap: wrap;
     gap: 90px;
-    width: 1000px;
+    
 }
 
 .skills-heading{
@@ -51,7 +51,7 @@ p{
 .skills-inbox{
     margin-top:26px;
     height: 210px;
-    width: 250px;
+    width: 180px;
     background-color: rgb(33, 33, 33);
     color: beige;
     border-radius: 15px;
@@ -65,7 +65,7 @@ p{
 
 .skills-inbox:hover{
     margin-top: 5px;
-    width: 400px;
+    width: 200px;
     padding-left: 60px;
     background-color: rgb(110, 109, 109);
 }
@@ -98,9 +98,11 @@ p{
 .projects-div{
     
     height: 220px;
-    width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 60px;
+    
 
 }
 
@@ -154,18 +156,16 @@ p{
 .education-title{
     font-size: larger;
     font-style: normal;
-    margin-top: 200px;
     margin-left: 30px;
     margin-bottom: 50px;
+    margin-top: 200px;
 }
 
 .education-exp{
-    /* height: 80px; */
-    width: 1000px;
+    flex-wrap: wrap;
     display: flex;
-    
     justify-content: space-between;
-    
+    gap: 60px;
 }
 
 .education-vit{
@@ -193,4 +193,92 @@ p{
 
 .education-harvest{
     background-color: aqua;
+}
+
+
+
+@media (max-width : 850px) {
+
+    .side-bar-elements {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .side-bar{
+        width: 69px;
+        background-color: transparent;
+    }
+
+    .side-bar p{
+        display: none;
+    }
+    .side-bar-elements:hover{
+        margin-top:0px;
+        margin-left: 0px;
+    }
+
+    .skills-inbox:hover{
+        margin-top: 26px;
+        width: 180px;
+        padding-left: 13px;
+        background-color: rgb(110, 109, 109);
+    }
+
+    .project:active{
+        margin-top : inherit;
+        height: inherit;
+        color: inherit;
+    }
+    .project:hover{
+        margin-top : 20px;
+        height: 275px;
+        color: beige;
+    }
+
+    body{
+        padding-left: 200px;
+        padding-right: 50px;
+    }
+
+    .projects-div{
+        margin-bottom: 500px;
+    }
+
+    .education-title{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width : 450px) {
+    .projects-div{
+        margin-bottom: 1200px;
+    }
+
+    .education-vit{
+        color: transparent;
+        height: 120px;
+        background-color: rgb(51, 48, 48);
+        border-radius: 15px;
+        padding: 30px;
+        transition: 0.15s;
+        cursor: pointer;
+    }
+
+    .education-vit:hover{
+        height: 250px;
+        color: beige;
+    }
+
+    .education-exp{
+        padding-bottom: 100px;
+    }
+
+    .horizontal-pfp{
+        display: none;
+    }
+
+    body{
+        padding-left: 120px;
+    }
 }
